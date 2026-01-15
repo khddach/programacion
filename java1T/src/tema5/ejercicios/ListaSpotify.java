@@ -10,7 +10,7 @@ public class ListaSpotify {
     //Constructor parametrizado
     public ListaSpotify(String nombre) {
         this.nombre = nombre;
-        canciones = new ArrayList<>(); //Se inicializa el ArrayList
+        this.canciones = new ArrayList<>(); //Se inicializa el ArrayList
     }
 
     //Constructor copia
